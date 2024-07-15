@@ -10,6 +10,7 @@ This project focuses on segmenting different parts of the heart using deep learn
 - [Models](#models)
 - [Results](#results)
 - [Weights](#weights)
+- [Links](#links)
 
 ## Introduction
 
@@ -53,5 +54,5 @@ The models were evaluated using class-specific Dice scores, which measure the ov
 | Training Set | 0.7178               | 0.8388           | 0.8764              |
 | Testing Set  | 0.6708               | 0.8096           | 0.8429              |
 
-## Weights
-The weights for both model can be accessed through the link [here](https://huggingface.co/firedfrog/finalproject/tree/main)
+## Links
+The image results, model weights, and additional training data can be accessed through the link [here](https://drive.google.com/drive/folders/1hKIaiz7B5Ge-yhUTF9ChiaOTxnQyB8px?usp=sharing). This includes detailed visualizations of the segmentation outputs for the Heart MRI dataset, showcasing the performance of both DenseNet-121 and MobileNetV2 models. By examining these results, one can gain insights into the efficacy of the models in accurately identifying and segmenting the Left Ventricle, Myocardium, and Ventricle regions. The provided link also contains the model weights, allowing for replication of the experiments or further fine-tuning to improve segmentation accuracy.
