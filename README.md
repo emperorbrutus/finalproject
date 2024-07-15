@@ -9,6 +9,7 @@ This project focuses on segmenting different parts of the heart using deep learn
 - [Dataset](#dataset)
 - [Models](#models)
 - [Results](#results)
+- [Weights](#weights)
 
 ## Introduction
 
@@ -51,3 +52,6 @@ The models were evaluated using class-specific Dice scores, which measure the ov
 |--------------|----------------------|------------------|---------------------|
 | Training Set | 0.7178               | 0.8388           | 0.8764              |
 | Testing Set  | 0.6708               | 0.8096           | 0.8429              |
+
+## Weights
+The weights for both model can be accessed through the link [here](https://huggingface.co/firedfrog/finalproject/tree/main)
